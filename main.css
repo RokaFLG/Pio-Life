@@ -1,0 +1,129 @@
+
+.
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+.contenedor{
+
+}
+/*Agregando Estilo*/
+.titulo-primario{
+    font-size: 2em;
+    color: rgb(56, 48, 48);
+    padding: 1.5rem;
+    text-decoration: underline;
+   /* Agregando flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Agregando Grid */
+    display: grid;
+
+}
+
+
+
+
+/*Agregando estilo parte 2*/
+#titulo-secundario{
+    padding: 1rem;
+    color: slategrey;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+/*Resaltando el Parrafo*/
+p{
+   color: purple;
+}
+
+
+p span{
+    
+    color: blueviolet;
+}
+
+/*Cambiando un poco la normativa*/
+ul{
+    list-style-type: square;
+    color: crimson;
+    
+}
+
+/*Mejorando estilos*/
+ol{
+    list-style-type: square;
+    color: darkslategrey;''
+    padding: 5px 10px 15px 20px;
+}
+
+/*Resaltando Titulos*/
+h3{
+    font-size: 20px;
+    color: slategrey;
+    padding: 1rem;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+/*Colocando Semantica Prolija*/
+table{
+    color: darkslategrey;
+    font-size: 17px;
+}
+
+/*Poniendo color en General*/
+form{
+    color: darkslategrey;
+    font-size: 17px;
+    display: grid;
+    grid-template-areas: 
+   
+    
+    ;
+}
+/*Quitando el subrayado y acomodando las paginas*/
+a{
+    text-decoration: solid;
+    padding: 5px 10px 15px 20px;
+    color: darkslategrey;
+    display: flex;
+    
+    
+}
+
+/*Haciendo Magia*/
+img{
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    border: 10px 10px 10px 10px;
+}
+/*Poniendo lindo los div*/
+body{
+    background-image: url(public/descarga\ \(1\).jfif);
+    
+}
+h1 {
+    position: sticky;top: 0%;
+}
+
+    
+    
+}
+/* Media Queries*/
+@media screen and (min-width:768px) {
+        {
+        color: aqua;
+    }
+    
+    
+}
+
